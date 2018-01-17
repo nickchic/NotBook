@@ -60,7 +60,7 @@ textarea{
 
 #bg{
     width: 800px;
-    height: 100%;
+    min-height: 100vh;
     overflow: visible;
     padding-bottom: 25px;
     margin:0 auto;
@@ -384,4 +384,17 @@ th {
 
 .bottom_link{
     margin-top: 20px
+}
+
+.check {
+    background-color: red;
+    color: white;
+    padding: 13px 10px 10px;
+    margin-top: 10px;
+}
+.check a {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }

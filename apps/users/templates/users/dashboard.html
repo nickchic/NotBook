@@ -33,12 +33,12 @@
                             <td>
                                 <a class='show{{user.id}}'>Remove</a>
                                 <a href='/users/edit/{{ user.id }}' class='action_button'>Edit</a>
-                                <div class='hidden{{user.id}}'>
-                                    Are you sure you want to delete {{user.first_name}} {{user.last_name}}?
-                                    <a href='/users/remove/{{ user.id }}'>Yes</a>
-                                    <a class='hide{{user.id}}'>No</a>
-                                </div>
                             </td>
+                            <div class='hidden{{user.id}} check'>
+                                Are you sure you want to delete {{user.first_name}} {{user.last_name}}?
+                                <a href='/users/remove/{{ user.id }}'>Yes</a>
+                                <a class='hide{{user.id}}'>No</a>
+                            </div>
                         {% endif %}
                         <script>
                         $('.hidden{{user.id}}').hide();
