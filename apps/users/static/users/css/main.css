@@ -200,15 +200,19 @@ h3{
 
 .comment .comment_content{
     font-family: 'HelveticaNeueLTStd-Lt';
-    font-size: 19px;
+    font-size: 18px;
     color: #565656;
-    margin-left: 20px;
-    display:inline-block;
+    margin: 12px 0 0 12px;
+    display: block;
 }
 
 #message_header{
     margin-left: 10%;
     margin-top: 10px;
+}
+
+#no_message{
+    margin-left: 10%;
 }
 
 .message{
