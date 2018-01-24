@@ -18,7 +18,7 @@
   font-family: 'HelveticaNeueLTStd-Bd';
   src:
       local('Helvetica Neue LT Std'),
-      local('../fonts/HelveticaNeueLTStd-Bd.otf'),
+      local('HelveticaNeueLTStd-Bd.otf'),
       url('../fonts/HelveticaNeueLTStd-Bd.otf');
 }
 
