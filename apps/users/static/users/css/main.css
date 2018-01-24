@@ -1,19 +1,25 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd-BdCn';
-  src: url('../fonts/HelveticaNeueLTStd-BdCn.otf');
-  src: local('../fonts/HelveticaNeueLTStd-BdCn.otf');
+  src:
+      local('Helvetica Neue LT Std'),
+      local('HelveticaNeueLTStd-BdCn.otf'),
+      url('../fonts/HelveticaNeueLTStd-BdCn.otf');
 }
 
 @font-face {
   font-family: 'HelveticaNeueLTStd-Lt';
-  src: url('../fonts/HelveticaNeueLTStd-Lt.otf');
-  src: local('../fonts/HelveticaNeueLTStd-Lt.otf');
+  src:
+      local('Helvetica Neue LT Std'),
+      local('HelveticaNeueLTStd-Lt.otf'),
+      url('../fonts/HelveticaNeueLTStd-Lt.otf');
 }
 
 @font-face {
   font-family: 'HelveticaNeueLTStd-Bd';
-  src: url('../fonts/HelveticaNeueLTStd-Bd.otf');
-  src: local('../fonts/HelveticaNeueLTStd-Bd.otf');
+  src:
+      local('Helvetica Neue LT Std'),
+      local('../fonts/HelveticaNeueLTStd-Bd.otf'),
+      url('../fonts/HelveticaNeueLTStd-Bd.otf');
 }
 
 *{
