@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd-BdCn';
   src:
-      local('Helvetica Neue LT Std'),
       local('HelveticaNeueLTStd-BdCn.otf'),
       url('../fonts/HelveticaNeueLTStd-BdCn.otf');
 }
@@ -9,7 +8,6 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd-Lt';
   src:
-      local('Helvetica Neue LT Std'),
       local('HelveticaNeueLTStd-Lt.otf'),
       url('../fonts/HelveticaNeueLTStd-Lt.otf');
 }
@@ -17,7 +15,6 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd-Bd';
   src:
-      local('Helvetica Neue LT Std'),
       local('HelveticaNeueLTStd-Bd.otf'),
       url('../fonts/HelveticaNeueLTStd-Bd.otf');
 }
